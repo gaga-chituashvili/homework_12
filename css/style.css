@@ -97,6 +97,7 @@ h2 {
     line-height: 40px;
     letter-spacing: 4px;
     color: #FFFFFF;
+    text-shadow: 2px 4px 4px #F90CEFB5;
 }
 
 
@@ -142,3 +143,25 @@ h3 {
     line-height: 26px;
     color: #B052B5;
 }
+
+
+.article2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.radio_main_section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    /*display flex*/
+}
+
+
