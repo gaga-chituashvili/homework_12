@@ -1,0 +1,144 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px;
+    background-color: #2E0230;
+}
+
+
+.header_ul {
+    display: flex;
+    column-gap: 100px;
+}
+
+
+.header_li_link {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+
+.header_li_link:hover {
+    color: #F30AEA;
+}
+
+
+.header_button:hover {
+    box-shadow: 0 0 5px white,
+        0 0 15px white,
+        0 0 20px white;
+}
+
+
+.header_section {
+    display: flex;
+    column-gap: 8px;
+}
+
+.header_button {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 84px;
+    height: 42px;
+    background-color: transparent;
+    border: 1px solid #F30AEA;
+    border-radius: 8px;
+}
+
+
+/*section*/
+
+
+.section {
+    object-fit: cover;
+    position: relative;
+}
+
+/*section2*/
+
+.section2 {
+    width: 920px;
+    height: 784px;
+    background-color: #1C1325CC;
+    border: 1px solid #B052B5C9;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+    padding: 48px 200px;
+}
+
+
+
+/*section3*/
+
+h2 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
+
+
+h3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+}
+
+/*form*/
+
+
+.article1 {
+    display: flex;
+    column-gap: 24px;
+}
+
+.name,
+.email {
+    width: 248px;
+    height: 48px;
+    border: none;
+    border: 1px solid #B052B5;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #9E8D9EB5;
+}
+
+
+.radio {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #B052B5;
+}
